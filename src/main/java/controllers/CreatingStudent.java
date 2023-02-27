@@ -10,11 +10,13 @@ import java.io.IOException;
 
 
 
-    @WebServlet(name="CreatingStudent", urlPatterns = "/CreatingStudents")
+    @WebServlet(name="CreatingStudent", urlPatterns = "/creatingStudents")
     public class CreatingStudent extends HttpServlet {
 
         @Override
         protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+            req.getRequestDispatcher("WEB-INF/jsp/creatingStudents.jsp").forward(req, resp);
 
         }
     }
