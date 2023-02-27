@@ -7,15 +7,15 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class CreatingStudent {
 
 
-    @WebServlet(name="StudentsController", urlPatterns = "/CreatingStudents")
-    public class StudentsController extends HttpServlet {
+
+    @WebServlet(name="CreatingStudent", urlPatterns = "/CreatingStudents")
+    public class CreatingStudent extends HttpServlet {
 
         @Override
         protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         }
     }
-}
+

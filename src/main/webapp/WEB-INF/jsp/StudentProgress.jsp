@@ -9,14 +9,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="resources/css/imploee.css">
+  <link rel="stylesheet" href="../../resources/css/imploee.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=, initial-scale=1.0">
   <title>Student progress</title>
 </head>
 <body>
-<button><a href="index.jsp"> на главную</a></button>
+<button><a href="../../index.jsp"> на главную</a></button>
 <button><a href="students.jsp" > назад</a></button>
 <h2 class="text-shadow-2" align="center">Успеваемость студентов</h2>
 <div class="flexbox">
