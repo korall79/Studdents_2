@@ -25,17 +25,17 @@
 
   <fieldset>
     <legend>Контактная информация</legend>
+
     <form action="/creatingStudents" method="post">
+         <p><label>Фамилия<input name="surname" type="text"></label></p>
+         <p><label>Имя<input name="name" type="text"></label></p>
+         <p><label>группа<input name="group" type="text"></label></p>
+         <p><label>Дата поступления<input type="date" id="datetime-local"></label></p>
 
-    <p><label>Фамилия<input name="surname" type="text"></label></p> //   id="surname"
-    <p><label>Имя<input name="name" type="text"></label></p>
-    <p><label>группа<input name="group" type="text"></label></p>
-    <p><label>Дата поступления<input type="date" id="datetime-local"></label></p>
+         <button class="gradient-button">создать</button>
+    </form>
 
-     <button class="gradient-button">создать</button>
-
-  </form>
-</fieldset>
+  </fieldset>
 
 
 

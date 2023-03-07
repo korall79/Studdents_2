@@ -36,6 +36,7 @@ public class CreatingStudentController extends HttpServlet {
             return;
         }
 
+
         int groupId = DBManager.getGroupId(groupName);
 
         DBManager.createStudent(surname, name, groupId, date);
